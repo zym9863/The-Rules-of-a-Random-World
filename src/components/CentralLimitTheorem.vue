@@ -324,8 +324,8 @@ const initSamplingChart = () => {
   const density = histogram.map(count => count / totalArea)
 
   // 生成理论正态分布曲线
-  const theoreticalX = []
-  const theoreticalY = []
+  const theoreticalX: string[] = []
+  const theoreticalY: number[] = []
   const theoreticalMu = theoreticalMean.value
   const theoreticalSigma = theoreticalSE.value
 

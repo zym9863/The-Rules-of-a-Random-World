@@ -86,7 +86,6 @@ const sampleSum = ref(0)
 const chartCanvas = ref<HTMLCanvasElement>()
 let chart: Chart | null = null
 let animationId: number | null = null
-let intervalId: number | null = null
 
 const distributions = {
   coin: {
